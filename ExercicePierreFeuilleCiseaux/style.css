@@ -1,0 +1,63 @@
+body {
+    background-image: url(/image/bg.webp);
+}
+
+main {
+    color: white;
+
+}
+
+.textTall{
+    font-size: 2rem;
+}
+
+
+
+.gagnePerdu {
+    grid-area: gagnePerdu;
+    margin: auto;
+    background-color: transparent;
+    text-align: center;
+
+}
+
+.grid-container {
+    margin-top: 25vh;
+    grid-template-areas:
+        'score'
+        'selection'
+        'gagnePerdu';
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.justify-content-space-around{
+    justify-content: space-around;
+}
+
+.score {
+    grid-area: score;
+    display: flex;
+    
+}
+
+
+.selection {
+    grid-area: selection;
+    display: flex;
+}
+
+.selection button{
+    margin: 10px 20px;
+    font-size: 3rem;
+    border: 5px solid black;
+    border-radius: 40px;
+    background-color: darksalmon;
+}
+
+.selection button:hover{
+    background-color: yellowgreen;
+}
+
