@@ -1,63 +1,60 @@
 body {
     background-image: url(/image/bg.webp);
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 main {
-    color: white;
+    color: azure;
 
 }
 
-.textTall{
-    font-size: 2rem;
+.container {
+    margin-top: 25vh;
 }
-
-
 
 .gagnePerdu {
-    grid-area: gagnePerdu;
     margin: auto;
     background-color: transparent;
     text-align: center;
-
 }
 
-.grid-container {
-    margin-top: 25vh;
-    grid-template-areas:
-        'score'
-        'selection'
-        'gagnePerdu';
+.textTall {
+    font-size: 2rem;
 }
 
-.justify-content-center{
+.justify-content-center {
     justify-content: center;
 }
 
-.justify-content-space-around{
+.justify-content-space-around {
     justify-content: space-around;
 }
 
 .score {
-    grid-area: score;
     display: flex;
+
+}
+
+.selection {
+    display: flex;
+}
+
+.selection button {
+    margin: 20px;
+    padding: 0.7rem;
+    font-size: 3rem;
+    border: 5px solid black;
+    border-radius: 45%;
+    background-color: darksalmon;
     
 }
 
 
-.selection {
-    grid-area: selection;
-    display: flex;
-}
-
-.selection button{
-    margin: 10px 20px;
-    font-size: 3rem;
-    border: 5px solid black;
-    border-radius: 40px;
-    background-color: darksalmon;
-}
-
-.selection button:hover{
+.selection button:hover {
     background-color: yellowgreen;
 }
 
+.selection button:active {
+    background-color: azure;
+
+}
