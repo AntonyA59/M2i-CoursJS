@@ -43,7 +43,5 @@ function remplirPanier(article) {
     for(let i = 0; i < quantity.length ; i++){
         quantity[i].innerHTML = "Quantité: " + items[i].quantity;
     }
-
-
 }
 
