@@ -25,7 +25,7 @@ fetch(url)
     valueCategory(null);
     function valueCategory(value){
         let url2 = "https://api.publicapis.org/entries?Category="+value;
-        if(value == null || value == "all"){
+        if(value === null || value === "all"){
             url2="https://api.publicapis.org/entries"
         }
         fetch(url2)

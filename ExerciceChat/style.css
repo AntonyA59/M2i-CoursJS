@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a:hover{
+    color: #0d6efd !important; 
+}
+
+.borderRad{
+    border-radius: 20px;
+    border-bottom-left-radius: 0;
+}
+#MessageBox{
+    overflow-y: scroll;
+    height: 700px;
+}
